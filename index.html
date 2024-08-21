@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🚲 Tus viajes en Ecobici</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.1.3/css/dataTables.dataTables.css" />
+    <script src="https://cdn.datatables.net/2.1.3/js/dataTables.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+     <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+     <script src="animation.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Tus viajes en <span style="color: #009a43dd;">Ecobici</span> - CDMX</h1>
+        <p id="description">
+          Vizualizaciones del sistema Ecobici.<br>
+          Por el momento es un sitio de prueba con datos sintéticos. En el futuro intentaremos que puedas visualizar tus propios datos.
+        </p>
+        <!-- <form id="searchForm">
+          <div class="input-group">
+            <input type="text" id="userId" placeholder="Ingresa tu token" required>
+            <button type="submit">Buscar</button>
+            <i class="fas fa-info-circle info-icon" id="yearInfo"></i>
+          </div>
+          <div class="input-group">
+            <input type="number" id="nRides" placeholder="Número de viajes" value="1000" step=10 hidden>
+          </div>
+        </form> -->
+        <div id="infoPopup" class="popup">
+          Los datos provienen de la página de <a href="https://ecobici.cdmx.gob.mx/" target="_blank">Ecobici</a>, si esa página está caída, esta página no funcionará.
+        </div>
+        <div id="loadingMessage" class="loading-message"></div>
+        <div id="ecobiciSection" class="collapsible-section section">
+          <div class="section-content">
+            <div id="ecobiciStatsContainer" class="stats-container">
+              <div class="stat-box">
+                  <h3>Total de viajes en Ecobici 🚲</h3>
+                  <p id="totalViajesEcobici"></p>
+              </div>
+              <div class="stat-box">
+                <h3>Estaciones que visitaste 🚲</h3>
+                <p id="estacionesVisitadas"></p>
+              </div>
+              <div class="stat-box">
+                  <h3>Tiempo total de tus viajes 🚲</h3>
+                  <p id="totalTiempoEcobici"></p>
+              </div>
+              <div class="stat-box">
+                  <h3>Duración promedio de viajes 🚲</h3>
+                  <p id="tiempoPromedioEcobici"></p>
+              </div>
+              <div class="stat-box">
+                <h3>Distancia recorrida total (estimada) 🚲</h3>
+                <p id="distanciaTotal"></p>
+              </div>
+              <div class="stat-box">
+                <h3>Distancia promedio por viaje (estimada) 🚲</h3>
+                <p id="distanciaPromedio"></p>
+              </div>
+            </div>
+            <div id="monthlyRidesChart" class="chart-container"></div>
+            <div id="HourlyRidesChart" class="chart-container"></div>
+            <div id="heatmapDiasMomentoChart" class="chart-container"></div>
+            <div id="top10StationsChart" class="chart-container"></div>
+            <div id="top10StationsHeatmap" class="chart-container"></div>
+            <div id="top10StationsDurationHeatmap" class="chart-container"></div>
+            <h2>Mapa de estaciones usadas</h2>
+            <div id="mapEcobici" class="map-container"></div>
+          </div>
+        </div>
+        <div id="ridesAnimation" class="section">
+          <h2>Animación de tus viajes</h2>
+          <div id="controls">
+            <button id="startAnimation">Iniciar</button>
+            <button id="pauseAnimation" style="display: none;">Pausar</button>
+            <button id="previousFrame" style="display: none;">Previo</button>
+            <button id="nextFrame" style="display: none;">Siguiente</button>
+          </div>
+          <div id="visualization" class="svg-container"></div>
+        </div>
+        <div id="results" class="section">
+          <h2>Explora los registros completos</h2>
+          <button id="downloadCSV" class="btn btn-primary">Descargar CSV</button>
+          <button id="downloadJSON" class="btn btn-primary">Descargar JSON</button>
+            <table id="resultsTable">
+              <thead></thead>
+              <tbody></tbody>
+            </table>
+        </div>
+        <!-- <div id="aboutModal" class="modal">
+          <div class="modal-content">
+            <span class="close" onclick="closeAboutModal()">&times;</span>
+            <h2>Sobre esta página</h2>
+            <p>Este es un proyecto personal, sin fines de lucro, ni afiliación gubernamental ni partidista.</p>
+            <p>Este sitio no recopila ni guarda ninguna información de la cuenta de Ecobici o viaje de los usuarios</p>
+            <p>El código es público y está disponible en: <a href="https://github.com/jjsantos01/ecobici-dashboard" target="_blank">GitHub</a>.</p>
+            <strong>Sobre los datos</strong>
+            <p>La información proviene directamente de la página pública oficial de <a href="https://ecobici.cdmx.gob.mx/" target="_blank">Ecobici</a>. Este Sitio lo único que hace es visualizarla.</p>
+            <p>En la gráfica de momento del día, se considera Mañana antes de 12pm, Tarde antes de 7pm y noche de 7pm en adelante.</p>
+          </div>
+        </div> -->
+        <footer>
+          <p>
+            Creado por <a href="https://twitter.com/jjsantoso" target="_blank">@jjsantoso</a>
+            - <a href="https://github.com/jjsantos01" target="_blank">GitHub</a>
+            - <a href="https://www.jjsantoso.com/" target="_blank">Web</a>
+
+          </p>
+        </footer>
+      <script src="script.js"></script>
+    </div>
+</body>
+</html>

@@ -1,0 +1,375 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  padding: 20px;
+}
+h1 {
+  color: #333;
+  text-align: center;
+}
+form {
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+#searchForm {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+}
+
+button {
+  padding: 10px 15px;
+  background: #008000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #009a437d;
+}
+
+#serieInput {
+  flex-grow: 1;
+}
+
+#yearSelect {
+  width: auto;
+}
+.info-icon {
+  cursor: pointer;
+  color: #009a437d;
+}
+.popup-container {
+  position: relative;
+  display: inline-block;
+}
+
+.popup {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  z-index: 1000;
+  max-width: 300px;
+  width: max-content;
+  right: 100%;
+  top: 0;
+  margin-right: 10px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  margin-bottom: 20px;
+}
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+tr:hover {
+  background-color: #f5f5f5;
+}
+#chartContainer {
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.collapsible-section {
+  background-color: #fff;
+  margin-top: 20px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.section-content {
+  padding: 20px;
+  display: none;
+}
+.section-content {
+  display: block;
+}
+.map-container {
+  height: 600px;
+  width: 100%;
+}
+.stats-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: stretch;
+}
+.stat-box {
+  flex: 1 1 25%;  /* Esto permite que crezcan y se encojan, con un tamaño base del 30% */
+  min-width: 150px;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  width: 45%;
+  margin: 10px;
+}
+.stat-box h3 {
+  margin-top: 0;
+  color: #333;
+}
+.stat-box p {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 0;
+}
+.play-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  background-color: #4CAF50;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.play-button:hover {
+  transform: scale(1.1);
+}
+
+.play-icon {
+  width: 0;
+  height: 0;
+  border-top: 12px solid transparent;
+  border-left: 20px solid white;
+  border-bottom: 12px solid transparent;
+  margin-left: 4px;
+}
+.stop-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  background-color: #f44336;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.stop-button:hover {
+  transform: scale(1.1);
+}
+
+.stop-icon {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+}
+
+.svg-container {
+  width: 100%;
+  height: 0;
+  padding-bottom: 75%; /* Relación de aspecto 4:3 */
+  position: relative;
+}
+
+.svg-container svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 480px) {
+  .stat-box {
+    flex: 1 1 100%;  /* En pantallas muy pequeñas, hacer que ocupen todo el ancho */
+  }
+}
+#chartContainer {
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.chart-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.chart-item {
+  width: 48%; /* Ajusta este valor según necesites */
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  box-sizing: border-box;
+  position: relative; /* Añadido para posicionamiento del canvas */
+}
+.full-width {
+  width: 100%;
+}
+/* Estilos para los canvas */
+.chart-item canvas {
+  width: 100% !important;
+  height: auto !important;
+  max-height: 300px; /* Ajusta según necesites */
+}
+  /* Ocultar secciones inicialmente */
+  .section {
+      display: none;
+  }
+  /* Estilo para el mensaje de carga */
+  #loadingMessage {
+      font-size: 1.5em;
+      font-weight: bold;
+      text-align: center;
+      margin-top: 20px;
+  }
+
+  /* Estilo para el modal */
+  .modal {
+    display: none; /* Oculto por defecto */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 10px;
+  }
+
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  footer {
+    text-align: center;
+    color: #666;
+    font-size: 0.9em;
+    margin-top: 20px;
+    padding: 10px 0;
+    background-color: #f4f4f4;
+  }
+
+  footer a {
+    color: #666;
+    text-decoration: none;
+  }
+
+  footer a:hover {
+    color: #333;
+  }
+
+  #description {
+    background-color: #7bd3a32d; /* Fondo verde claro */
+    color: #333; /* Texto en color oscuro */
+    padding: 15px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+    border: 1px solid #cfe8ff; /* Borde ligeramente más oscuro */
+    font-family: 'Arial', sans-serif; /* Fuente */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para darle profundidad */
+    max-width: 600px; /* Ancho máximo de la cajita */
+    margin: 20px auto; /* Centrado y margen superior/inferior */
+    text-align: center; /* Texto centrado */
+}
+
+@media (max-width: 768px) {
+  .chart-row {
+      flex-direction: column;
+  }
+  .chart-item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+  .section-content {
+    padding: 20px;
+  }
+  .chart-container {
+    width: 100%;
+    height: 300px; /* Ajusta esta altura según tus necesidades */
+    margin-bottom: 20px;
+  }
+
+  .chart-container, .map-container {
+        height: 250px; /* Altura reducida para pantallas más pequeñas */
+    }
+    .popup {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-105%, -50%);
+      width: 60%;
+      max-width: none;
+      margin: 0;
+    }
+  #chart {
+    overflow: visible !important;
+  }
+
+  .apexcharts-tooltip {
+    overflow: visible !important;
+    white-space: normal !important;
+  }
+
+  .arrow_box {
+      max-width: 200px;
+      width: auto !important;
+      white-space: normal !important;
+      overflow-wrap: break-word;
+      word-wrap: break-word;
+      hyphens: auto;
+  }
+}

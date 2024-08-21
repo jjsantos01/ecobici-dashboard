@@ -1,0 +1,2202 @@
+[
+  {
+    "startAddressStr": "CE-334",
+    "endAddressStr": "CE-279",
+    "startTimeMs": 1724187680000,
+    "endTimeMs": 1724189540000,
+    "duration": 1860000,
+    "distance": {
+      "value": 2.935
+    },
+    "rideId": 1
+  },
+  {
+    "startAddressStr": "CE-279",
+    "endAddressStr": "CE-585",
+    "startTimeMs": 1723995917000,
+    "endTimeMs": 1723998617000,
+    "duration": 2700000,
+    "distance": {
+      "value": 0.216
+    },
+    "rideId": 2
+  },
+  {
+    "startAddressStr": "CE-556",
+    "endAddressStr": "CE-585",
+    "startTimeMs": 1723896590000,
+    "endTimeMs": 1723898510000,
+    "duration": 1920000,
+    "distance": {
+      "value": 0.83
+    },
+    "rideId": 3
+  },
+  {
+    "startAddressStr": "CE-556",
+    "endAddressStr": "CE-696",
+    "startTimeMs": 1723161697000,
+    "endTimeMs": 1723163197000,
+    "duration": 1500000,
+    "distance": {
+      "value": 3.358
+    },
+    "rideId": 4
+  },
+  {
+    "startAddressStr": "CE-334",
+    "endAddressStr": "CE-696",
+    "startTimeMs": 1722341985000,
+    "endTimeMs": 1722343245000,
+    "duration": 1260000,
+    "distance": {
+      "value": 1.549
+    },
+    "rideId": 5
+  },
+  {
+    "startAddressStr": "CE-585",
+    "endAddressStr": "CE-229",
+    "startTimeMs": 1722051907000,
+    "endTimeMs": 1722054007000,
+    "duration": 2100000,
+    "distance": {
+      "value": 1.214
+    },
+    "rideId": 6
+  },
+  {
+    "startAddressStr": "CE-129",
+    "endAddressStr": "CE-669",
+    "startTimeMs": 1721981174000,
+    "endTimeMs": 1721982914000,
+    "duration": 1740000,
+    "distance": {
+      "value": 0.436
+    },
+    "rideId": 7
+  },
+  {
+    "startAddressStr": "CE-279",
+    "endAddressStr": "CE-594",
+    "startTimeMs": 1720798816000,
+    "endTimeMs": 1720799476000,
+    "duration": 660000,
+    "distance": {
+      "value": 3.109
+    },
+    "rideId": 8
+  },
+  {
+    "startAddressStr": "CE-556",
+    "endAddressStr": "CE-585",
+    "startTimeMs": 1720744732000,
+    "endTimeMs": 1720747252000,
+    "duration": 2520000,
+    "distance": {
+      "value": 3.78
+    },
+    "rideId": 9
+  },
+  {
+    "startAddressStr": "CE-594",
+    "endAddressStr": "CE-696",
+    "startTimeMs": 1719986260000,
+    "endTimeMs": 1719988420000,
+    "duration": 2160000,
+    "distance": {
+      "value": 0.137
+    },
+    "rideId": 10
+  },
+  {
+    "startAddressStr": "CE-334",
+    "endAddressStr": "CE-334",
+    "startTimeMs": 1719957470000,
+    "endTimeMs": 1719958670000,
+    "duration": 1200000,
+    "distance": {
+      "value": 3.372
+    },
+    "rideId": 11
+  },
+  {
+    "startAddressStr": "CE-334",
+    "endAddressStr": "CE-457",
+    "startTimeMs": 1719953657000,
+    "endTimeMs": 1719954017000,
+    "duration": 360000,
+    "distance": {
+      "value": 3.487
+    },
+    "rideId": 12
+  },
+  {
+    "startAddressStr": "CE-556",
+    "endAddressStr": "CE-585",
+    "startTimeMs": 1719943055000,
+    "endTimeMs": 1719943415000,
+    "duration": 360000,
+    "distance": {
+      "value": 1.653
+    },
+    "rideId": 13
+  },
+  {
+    "startAddressStr": "CE-457",
+    "endAddressStr": "CE-457",
+    "startTimeMs": 1719903637000,
+    "endTimeMs": 1719904057000,
+    "duration": 420000,
+    "distance": {
+      "value": 0.567
+    },
+    "rideId": 14
+  },
+  {
+    "startAddressStr": "CE-457",
+    "endAddressStr": "CE-279",
+    "startTimeMs": 1719309037000,
+    "endTimeMs": 1719310957000,
+    "duration": 1920000,
+    "distance": {
+      "value": 2.507
+    },
+    "rideId": 15
+  },
+  {
+    "startAddressStr": "CE-594",
+    "endAddressStr": "CE-279",
+    "startTimeMs": 1719199123000,
+    "endTimeMs": 1719199783000,
+    "duration": 660000,
+    "distance": {
+      "value": 1.651
+    },
+    "rideId": 16
+  },
+  {
+    "startAddressStr": "CE-457",
+    "endAddressStr": "CE-556",
+    "startTimeMs": 1718751688000,
+    "endTimeMs": 1718751988000,
+    "duration": 300000,
+    "distance": {
+      "value": 1.491
+    },
+    "rideId": 17
+  },
+  {
+    "startAddressStr": "CE-279",
+    "endAddressStr": "CE-585",
+    "startTimeMs": 1718328023000,
+    "endTimeMs": 1718328263000,
+    "duration": 240000,
+    "distance": {
+      "value": 4.697
+    },
+    "rideId": 18
+  },
+  {
+    "startAddressStr": "CE-279",
+    "endAddressStr": "CE-129",
+    "startTimeMs": 1717670532000,
+    "endTimeMs": 1717670952000,
+    "duration": 420000,
+    "distance": {
+      "value": 2.552
+    },
+    "rideId": 19
+  },
+  {
+    "startAddressStr": "CE-669",
+    "endAddressStr": "CE-457",
+    "startTimeMs": 1717605588000,
+    "endTimeMs": 1717607268000,
+    "duration": 1680000,
+    "distance": {
+      "value": 0.998
+    },
+    "rideId": 20
+  },
+  {
+    "startAddressStr": "CE-585",
+    "endAddressStr": "CE-334",
+    "startTimeMs": 1717451299000,
+    "endTimeMs": 1717452739000,
+    "duration": 1440000,
+    "distance": {
+      "value": 3.309
+    },
+    "rideId": 21
+  },
+  {
+    "startAddressStr": "CE-229",
+    "endAddressStr": "CE-669",
+    "startTimeMs": 1717338339000,
+    "endTimeMs": 1717339599000,
+    "duration": 1260000,
+    "distance": {
+      "value": 1.521
+    },
+    "rideId": 22
+  },
+  {
+    "startAddressStr": "CE-279",
+    "endAddressStr": "CE-129",
+    "startTimeMs": 1716111765000,
+    "endTimeMs": 1716112245000,
+    "duration": 480000,
+    "distance": {
+      "value": 1.861
+    },
+    "rideId": 23
+  },
+  {
+    "startAddressStr": "CE-594",
+    "endAddressStr": "CE-556",
+    "startTimeMs": 1715865290000,
+    "endTimeMs": 1715865470000,
+    "duration": 180000,
+    "distance": {
+      "value": 3.602
+    },
+    "rideId": 24
+  },
+  {
+    "startAddressStr": "CE-229",
+    "endAddressStr": "CE-585",
+    "startTimeMs": 1715763945000,
+    "endTimeMs": 1715766165000,
+    "duration": 2220000,
+    "distance": {
+      "value": 1.511
+    },
+    "rideId": 25
+  },
+  {
+    "startAddressStr": "CE-585",
+    "endAddressStr": "CE-669",
+    "startTimeMs": 1715733099000,
+    "endTimeMs": 1715733279000,
+    "duration": 180000,
+    "distance": {
+      "value": 0.941
+    },
+    "rideId": 26
+  },
+  {
+    "startAddressStr": "CE-594",
+    "endAddressStr": "CE-556",
+    "startTimeMs": 1714567576000,
+    "endTimeMs": 1714570276000,
+    "duration": 2700000,
+    "distance": {
+      "value": 3.05
+    },
+    "rideId": 27
+  },
+  {
+    "startAddressStr": "CE-457",
+    "endAddressStr": "CE-229",
+    "startTimeMs": 1714335741000,
+    "endTimeMs": 1714337781000,
+    "duration": 2040000,
+    "distance": {
+      "value": 4.31
+    },
+    "rideId": 28
+  },
+  {
+    "startAddressStr": "CE-585",
+    "endAddressStr": "CE-457",
+    "startTimeMs": 1713867260000,
+    "endTimeMs": 1713868880000,
+    "duration": 1620000,
+    "distance": {
+      "value": 1.774
+    },
+    "rideId": 29
+  },
+  {
+    "startAddressStr": "CE-556",
+    "endAddressStr": "CE-279",
+    "startTimeMs": 1712502919000,
+    "endTimeMs": 1712503819000,
+    "duration": 900000,
+    "distance": {
+      "value": 3.055
+    },
+    "rideId": 30
+  },
+  {
+    "startAddressStr": "CE-594",
+    "endAddressStr": "CE-594",
+    "startTimeMs": 1712351652000,
+    "endTimeMs": 1712353632000,
+    "duration": 1980000,
+    "distance": {
+      "value": 3.198
+    },
+    "rideId": 31
+  },
+  {
+    "startAddressStr": "CE-457",
+    "endAddressStr": "CE-594",
+    "startTimeMs": 1712161241000,
+    "endTimeMs": 1712163581000,
+    "duration": 2340000,
+    "distance": {
+      "value": 0.663
+    },
+    "rideId": 32
+  },
+  {
+    "startAddressStr": "CE-229",
+    "endAddressStr": "CE-279",
+    "startTimeMs": 1712148038000,
+    "endTimeMs": 1712150498000,
+    "duration": 2460000,
+    "distance": {
+      "value": 1.603
+    },
+    "rideId": 33
+  },
+  {
+    "startAddressStr": "CE-334",
+    "endAddressStr": "CE-696",
+    "startTimeMs": 1711997745000,
+    "endTimeMs": 1711998645000,
+    "duration": 900000,
+    "distance": {
+      "value": 1.119
+    },
+    "rideId": 34
+  },
+  {
+    "startAddressStr": "CE-556",
+    "endAddressStr": "CE-457",
+    "startTimeMs": 1711829810000,
+    "endTimeMs": 1711832090000,
+    "duration": 2280000,
+    "distance": {
+      "value": 1.072
+    },
+    "rideId": 35
+  },
+  {
+    "startAddressStr": "CE-696",
+    "endAddressStr": "CE-229",
+    "startTimeMs": 1711814411000,
+    "endTimeMs": 1711815611000,
+    "duration": 1200000,
+    "distance": {
+      "value": 2.031
+    },
+    "rideId": 36
+  },
+  {
+    "startAddressStr": "CE-585",
+    "endAddressStr": "CE-457",
+    "startTimeMs": 1710435396000,
+    "endTimeMs": 1710436656000,
+    "duration": 1260000,
+    "distance": {
+      "value": 4.932
+    },
+    "rideId": 37
+  },
+  {
+    "startAddressStr": "CE-457",
+    "endAddressStr": "CE-129",
+    "startTimeMs": 1710259400000,
+    "endTimeMs": 1710261440000,
+    "duration": 2040000,
+    "distance": {
+      "value": 2.586
+    },
+    "rideId": 38
+  },
+  {
+    "startAddressStr": "CE-279",
+    "endAddressStr": "CE-556",
+    "startTimeMs": 1710217774000,
+    "endTimeMs": 1710220174000,
+    "duration": 2400000,
+    "distance": {
+      "value": 3.948
+    },
+    "rideId": 39
+  },
+  {
+    "startAddressStr": "CE-279",
+    "endAddressStr": "CE-669",
+    "startTimeMs": 1709797927000,
+    "endTimeMs": 1709798887000,
+    "duration": 960000,
+    "distance": {
+      "value": 0.18
+    },
+    "rideId": 40
+  },
+  {
+    "startAddressStr": "CE-585",
+    "endAddressStr": "CE-594",
+    "startTimeMs": 1709062201000,
+    "endTimeMs": 1709064481000,
+    "duration": 2280000,
+    "distance": {
+      "value": 1.004
+    },
+    "rideId": 41
+  },
+  {
+    "startAddressStr": "CE-556",
+    "endAddressStr": "CE-229",
+    "startTimeMs": 1709024364000,
+    "endTimeMs": 1709026224000,
+    "duration": 1860000,
+    "distance": {
+      "value": 0.267
+    },
+    "rideId": 42
+  },
+  {
+    "startAddressStr": "CE-669",
+    "endAddressStr": "CE-696",
+    "startTimeMs": 1708651240000,
+    "endTimeMs": 1708652860000,
+    "duration": 1620000,
+    "distance": {
+      "value": 4.896
+    },
+    "rideId": 43
+  },
+  {
+    "startAddressStr": "CE-334",
+    "endAddressStr": "CE-229",
+    "startTimeMs": 1708592244000,
+    "endTimeMs": 1708594764000,
+    "duration": 2520000,
+    "distance": {
+      "value": 3.958
+    },
+    "rideId": 44
+  },
+  {
+    "startAddressStr": "CE-556",
+    "endAddressStr": "CE-229",
+    "startTimeMs": 1708474487000,
+    "endTimeMs": 1708476947000,
+    "duration": 2460000,
+    "distance": {
+      "value": 4.179
+    },
+    "rideId": 45
+  },
+  {
+    "startAddressStr": "CE-229",
+    "endAddressStr": "CE-594",
+    "startTimeMs": 1708173597000,
+    "endTimeMs": 1708173837000,
+    "duration": 240000,
+    "distance": {
+      "value": 4.847
+    },
+    "rideId": 46
+  },
+  {
+    "startAddressStr": "CE-669",
+    "endAddressStr": "CE-594",
+    "startTimeMs": 1707591519000,
+    "endTimeMs": 1707591579000,
+    "duration": 60000,
+    "distance": {
+      "value": 4.46
+    },
+    "rideId": 47
+  },
+  {
+    "startAddressStr": "CE-669",
+    "endAddressStr": "CE-556",
+    "startTimeMs": 1707131659000,
+    "endTimeMs": 1707133939000,
+    "duration": 2280000,
+    "distance": {
+      "value": 0.894
+    },
+    "rideId": 48
+  },
+  {
+    "startAddressStr": "CE-279",
+    "endAddressStr": "CE-669",
+    "startTimeMs": 1707120785000,
+    "endTimeMs": 1707123485000,
+    "duration": 2700000,
+    "distance": {
+      "value": 1.41
+    },
+    "rideId": 49
+  },
+  {
+    "startAddressStr": "CE-594",
+    "endAddressStr": "CE-669",
+    "startTimeMs": 1707062496000,
+    "endTimeMs": 1707064236000,
+    "duration": 1740000,
+    "distance": {
+      "value": 2.941
+    },
+    "rideId": 50
+  },
+  {
+    "startAddressStr": "CE-585",
+    "endAddressStr": "CE-129",
+    "startTimeMs": 1706953686000,
+    "endTimeMs": 1706956086000,
+    "duration": 2400000,
+    "distance": {
+      "value": 0.401
+    },
+    "rideId": 51
+  },
+  {
+    "startAddressStr": "CE-457",
+    "endAddressStr": "CE-669",
+    "startTimeMs": 1706757974000,
+    "endTimeMs": 1706760554000,
+    "duration": 2580000,
+    "distance": {
+      "value": 4.622
+    },
+    "rideId": 52
+  },
+  {
+    "startAddressStr": "CE-279",
+    "endAddressStr": "CE-669",
+    "startTimeMs": 1705730259000,
+    "endTimeMs": 1705732479000,
+    "duration": 2220000,
+    "distance": {
+      "value": 0.255
+    },
+    "rideId": 53
+  },
+  {
+    "startAddressStr": "CE-585",
+    "endAddressStr": "CE-696",
+    "startTimeMs": 1705471604000,
+    "endTimeMs": 1705473164000,
+    "duration": 1560000,
+    "distance": {
+      "value": 3.314
+    },
+    "rideId": 54
+  },
+  {
+    "startAddressStr": "CE-594",
+    "endAddressStr": "CE-334",
+    "startTimeMs": 1704766247000,
+    "endTimeMs": 1704767687000,
+    "duration": 1440000,
+    "distance": {
+      "value": 4.652
+    },
+    "rideId": 55
+  },
+  {
+    "startAddressStr": "CE-229",
+    "endAddressStr": "CE-457",
+    "startTimeMs": 1704713594000,
+    "endTimeMs": 1704716054000,
+    "duration": 2460000,
+    "distance": {
+      "value": 0.159
+    },
+    "rideId": 56
+  },
+  {
+    "startAddressStr": "CE-279",
+    "endAddressStr": "CE-229",
+    "startTimeMs": 1704689472000,
+    "endTimeMs": 1704691152000,
+    "duration": 1680000,
+    "distance": {
+      "value": 2.649
+    },
+    "rideId": 57
+  },
+  {
+    "startAddressStr": "CE-669",
+    "endAddressStr": "CE-696",
+    "startTimeMs": 1704617100000,
+    "endTimeMs": 1704617760000,
+    "duration": 660000,
+    "distance": {
+      "value": 4.411
+    },
+    "rideId": 58
+  },
+  {
+    "startAddressStr": "CE-594",
+    "endAddressStr": "CE-457",
+    "startTimeMs": 1704574675000,
+    "endTimeMs": 1704576475000,
+    "duration": 1800000,
+    "distance": {
+      "value": 0.286
+    },
+    "rideId": 59
+  },
+  {
+    "startAddressStr": "CE-594",
+    "endAddressStr": "CE-556",
+    "startTimeMs": 1704061727000,
+    "endTimeMs": 1704064367000,
+    "duration": 2640000,
+    "distance": {
+      "value": 3.115
+    },
+    "rideId": 60
+  },
+  {
+    "startAddressStr": "CE-669",
+    "endAddressStr": "CE-279",
+    "startTimeMs": 1704045100000,
+    "endTimeMs": 1704047080000,
+    "duration": 1980000,
+    "distance": {
+      "value": 0.124
+    },
+    "rideId": 61
+  },
+  {
+    "startAddressStr": "CE-279",
+    "endAddressStr": "CE-457",
+    "startTimeMs": 1703989760000,
+    "endTimeMs": 1703991320000,
+    "duration": 1560000,
+    "distance": {
+      "value": 4.013
+    },
+    "rideId": 62
+  },
+  {
+    "startAddressStr": "CE-457",
+    "endAddressStr": "CE-229",
+    "startTimeMs": 1703621155000,
+    "endTimeMs": 1703623015000,
+    "duration": 1860000,
+    "distance": {
+      "value": 0.982
+    },
+    "rideId": 63
+  },
+  {
+    "startAddressStr": "CE-457",
+    "endAddressStr": "CE-334",
+    "startTimeMs": 1703231917000,
+    "endTimeMs": 1703233597000,
+    "duration": 1680000,
+    "distance": {
+      "value": 2.45
+    },
+    "rideId": 64
+  },
+  {
+    "startAddressStr": "CE-556",
+    "endAddressStr": "CE-556",
+    "startTimeMs": 1703228754000,
+    "endTimeMs": 1703230854000,
+    "duration": 2100000,
+    "distance": {
+      "value": 0.721
+    },
+    "rideId": 65
+  },
+  {
+    "startAddressStr": "CE-669",
+    "endAddressStr": "CE-279",
+    "startTimeMs": 1702795758000,
+    "endTimeMs": 1702795818000,
+    "duration": 60000,
+    "distance": {
+      "value": 2.395
+    },
+    "rideId": 66
+  },
+  {
+    "startAddressStr": "CE-585",
+    "endAddressStr": "CE-594",
+    "startTimeMs": 1702744028000,
+    "endTimeMs": 1702746308000,
+    "duration": 2280000,
+    "distance": {
+      "value": 3.24
+    },
+    "rideId": 67
+  },
+  {
+    "startAddressStr": "CE-334",
+    "endAddressStr": "CE-696",
+    "startTimeMs": 1702559465000,
+    "endTimeMs": 1702559645000,
+    "duration": 180000,
+    "distance": {
+      "value": 3.454
+    },
+    "rideId": 68
+  },
+  {
+    "startAddressStr": "CE-556",
+    "endAddressStr": "CE-279",
+    "startTimeMs": 1702369751000,
+    "endTimeMs": 1702371071000,
+    "duration": 1320000,
+    "distance": {
+      "value": 4.28
+    },
+    "rideId": 69
+  },
+  {
+    "startAddressStr": "CE-129",
+    "endAddressStr": "CE-129",
+    "startTimeMs": 1702066450000,
+    "endTimeMs": 1702068790000,
+    "duration": 2340000,
+    "distance": {
+      "value": 0.834
+    },
+    "rideId": 70
+  },
+  {
+    "startAddressStr": "CE-129",
+    "endAddressStr": "CE-585",
+    "startTimeMs": 1702051097000,
+    "endTimeMs": 1702051877000,
+    "duration": 780000,
+    "distance": {
+      "value": 1.156
+    },
+    "rideId": 71
+  },
+  {
+    "startAddressStr": "CE-334",
+    "endAddressStr": "CE-696",
+    "startTimeMs": 1701999358000,
+    "endTimeMs": 1701999838000,
+    "duration": 480000,
+    "distance": {
+      "value": 3.709
+    },
+    "rideId": 72
+  },
+  {
+    "startAddressStr": "CE-585",
+    "endAddressStr": "CE-229",
+    "startTimeMs": 1701473732000,
+    "endTimeMs": 1701475292000,
+    "duration": 1560000,
+    "distance": {
+      "value": 4.846
+    },
+    "rideId": 73
+  },
+  {
+    "startAddressStr": "CE-669",
+    "endAddressStr": "CE-696",
+    "startTimeMs": 1700986227000,
+    "endTimeMs": 1700988207000,
+    "duration": 1980000,
+    "distance": {
+      "value": 1.928
+    },
+    "rideId": 74
+  },
+  {
+    "startAddressStr": "CE-585",
+    "endAddressStr": "CE-669",
+    "startTimeMs": 1700070869000,
+    "endTimeMs": 1700073389000,
+    "duration": 2520000,
+    "distance": {
+      "value": 2.761
+    },
+    "rideId": 75
+  },
+  {
+    "startAddressStr": "CE-556",
+    "endAddressStr": "CE-279",
+    "startTimeMs": 1700064805000,
+    "endTimeMs": 1700066845000,
+    "duration": 2040000,
+    "distance": {
+      "value": 4.668
+    },
+    "rideId": 76
+  },
+  {
+    "startAddressStr": "CE-129",
+    "endAddressStr": "CE-129",
+    "startTimeMs": 1700023912000,
+    "endTimeMs": 1700026492000,
+    "duration": 2580000,
+    "distance": {
+      "value": 4.326
+    },
+    "rideId": 77
+  },
+  {
+    "startAddressStr": "CE-457",
+    "endAddressStr": "CE-334",
+    "startTimeMs": 1699959467000,
+    "endTimeMs": 1699961387000,
+    "duration": 1920000,
+    "distance": {
+      "value": 0.663
+    },
+    "rideId": 78
+  },
+  {
+    "startAddressStr": "CE-457",
+    "endAddressStr": "CE-669",
+    "startTimeMs": 1699453627000,
+    "endTimeMs": 1699454047000,
+    "duration": 420000,
+    "distance": {
+      "value": 0.91
+    },
+    "rideId": 79
+  },
+  {
+    "startAddressStr": "CE-279",
+    "endAddressStr": "CE-585",
+    "startTimeMs": 1699422060000,
+    "endTimeMs": 1699424700000,
+    "duration": 2640000,
+    "distance": {
+      "value": 2.297
+    },
+    "rideId": 80
+  },
+  {
+    "startAddressStr": "CE-229",
+    "endAddressStr": "CE-129",
+    "startTimeMs": 1699262667000,
+    "endTimeMs": 1699264767000,
+    "duration": 2100000,
+    "distance": {
+      "value": 0.881
+    },
+    "rideId": 81
+  },
+  {
+    "startAddressStr": "CE-669",
+    "endAddressStr": "CE-129",
+    "startTimeMs": 1699247873000,
+    "endTimeMs": 1699248593000,
+    "duration": 720000,
+    "distance": {
+      "value": 2.082
+    },
+    "rideId": 82
+  },
+  {
+    "startAddressStr": "CE-279",
+    "endAddressStr": "CE-129",
+    "startTimeMs": 1698889713000,
+    "endTimeMs": 1698890493000,
+    "duration": 780000,
+    "distance": {
+      "value": 4.012
+    },
+    "rideId": 83
+  },
+  {
+    "startAddressStr": "CE-594",
+    "endAddressStr": "CE-585",
+    "startTimeMs": 1698491570000,
+    "endTimeMs": 1698493370000,
+    "duration": 1800000,
+    "distance": {
+      "value": 0.378
+    },
+    "rideId": 84
+  },
+  {
+    "startAddressStr": "CE-457",
+    "endAddressStr": "CE-279",
+    "startTimeMs": 1697616336000,
+    "endTimeMs": 1697617356000,
+    "duration": 1020000,
+    "distance": {
+      "value": 4.686
+    },
+    "rideId": 85
+  },
+  {
+    "startAddressStr": "CE-279",
+    "endAddressStr": "CE-129",
+    "startTimeMs": 1697408586000,
+    "endTimeMs": 1697410746000,
+    "duration": 2160000,
+    "distance": {
+      "value": 1.312
+    },
+    "rideId": 86
+  },
+  {
+    "startAddressStr": "CE-229",
+    "endAddressStr": "CE-585",
+    "startTimeMs": 1697189501000,
+    "endTimeMs": 1697191661000,
+    "duration": 2160000,
+    "distance": {
+      "value": 0.432
+    },
+    "rideId": 87
+  },
+  {
+    "startAddressStr": "CE-129",
+    "endAddressStr": "CE-334",
+    "startTimeMs": 1697026775000,
+    "endTimeMs": 1697027195000,
+    "duration": 420000,
+    "distance": {
+      "value": 2.946
+    },
+    "rideId": 88
+  },
+  {
+    "startAddressStr": "CE-334",
+    "endAddressStr": "CE-279",
+    "startTimeMs": 1696983038000,
+    "endTimeMs": 1696984598000,
+    "duration": 1560000,
+    "distance": {
+      "value": 3.316
+    },
+    "rideId": 89
+  },
+  {
+    "startAddressStr": "CE-229",
+    "endAddressStr": "CE-556",
+    "startTimeMs": 1696971484000,
+    "endTimeMs": 1696972564000,
+    "duration": 1080000,
+    "distance": {
+      "value": 4.563
+    },
+    "rideId": 90
+  },
+  {
+    "startAddressStr": "CE-594",
+    "endAddressStr": "CE-334",
+    "startTimeMs": 1696928433000,
+    "endTimeMs": 1696929873000,
+    "duration": 1440000,
+    "distance": {
+      "value": 4.856
+    },
+    "rideId": 91
+  },
+  {
+    "startAddressStr": "CE-669",
+    "endAddressStr": "CE-279",
+    "startTimeMs": 1696802364000,
+    "endTimeMs": 1696803504000,
+    "duration": 1140000,
+    "distance": {
+      "value": 0.134
+    },
+    "rideId": 92
+  },
+  {
+    "startAddressStr": "CE-669",
+    "endAddressStr": "CE-669",
+    "startTimeMs": 1696347115000,
+    "endTimeMs": 1696349755000,
+    "duration": 2640000,
+    "distance": {
+      "value": 2.923
+    },
+    "rideId": 93
+  },
+  {
+    "startAddressStr": "CE-229",
+    "endAddressStr": "CE-556",
+    "startTimeMs": 1696158501000,
+    "endTimeMs": 1696159761000,
+    "duration": 1260000,
+    "distance": {
+      "value": 1.444
+    },
+    "rideId": 94
+  },
+  {
+    "startAddressStr": "CE-334",
+    "endAddressStr": "CE-556",
+    "startTimeMs": 1695807196000,
+    "endTimeMs": 1695808816000,
+    "duration": 1620000,
+    "distance": {
+      "value": 1.687
+    },
+    "rideId": 95
+  },
+  {
+    "startAddressStr": "CE-229",
+    "endAddressStr": "CE-334",
+    "startTimeMs": 1695591595000,
+    "endTimeMs": 1695593335000,
+    "duration": 1740000,
+    "distance": {
+      "value": 3.176
+    },
+    "rideId": 96
+  },
+  {
+    "startAddressStr": "CE-279",
+    "endAddressStr": "CE-334",
+    "startTimeMs": 1695489312000,
+    "endTimeMs": 1695489492000,
+    "duration": 180000,
+    "distance": {
+      "value": 1.249
+    },
+    "rideId": 97
+  },
+  {
+    "startAddressStr": "CE-334",
+    "endAddressStr": "CE-229",
+    "startTimeMs": 1695404073000,
+    "endTimeMs": 1695405153000,
+    "duration": 1080000,
+    "distance": {
+      "value": 0.195
+    },
+    "rideId": 98
+  },
+  {
+    "startAddressStr": "CE-669",
+    "endAddressStr": "CE-334",
+    "startTimeMs": 1694982776000,
+    "endTimeMs": 1694983676000,
+    "duration": 900000,
+    "distance": {
+      "value": 0.195
+    },
+    "rideId": 99
+  },
+  {
+    "startAddressStr": "CE-696",
+    "endAddressStr": "CE-585",
+    "startTimeMs": 1694915158000,
+    "endTimeMs": 1694915518000,
+    "duration": 360000,
+    "distance": {
+      "value": 4.815
+    },
+    "rideId": 100
+  },
+  {
+    "startAddressStr": "CE-585",
+    "endAddressStr": "CE-585",
+    "startTimeMs": 1694474641000,
+    "endTimeMs": 1694474761000,
+    "duration": 120000,
+    "distance": {
+      "value": 1.484
+    },
+    "rideId": 101
+  },
+  {
+    "startAddressStr": "CE-669",
+    "endAddressStr": "CE-585",
+    "startTimeMs": 1694436168000,
+    "endTimeMs": 1694436588000,
+    "duration": 420000,
+    "distance": {
+      "value": 0.613
+    },
+    "rideId": 102
+  },
+  {
+    "startAddressStr": "CE-594",
+    "endAddressStr": "CE-594",
+    "startTimeMs": 1694142212000,
+    "endTimeMs": 1694142632000,
+    "duration": 420000,
+    "distance": {
+      "value": 4.093
+    },
+    "rideId": 103
+  },
+  {
+    "startAddressStr": "CE-334",
+    "endAddressStr": "CE-585",
+    "startTimeMs": 1693621794000,
+    "endTimeMs": 1693623714000,
+    "duration": 1920000,
+    "distance": {
+      "value": 0.739
+    },
+    "rideId": 104
+  },
+  {
+    "startAddressStr": "CE-229",
+    "endAddressStr": "CE-457",
+    "startTimeMs": 1693435413000,
+    "endTimeMs": 1693437213000,
+    "duration": 1800000,
+    "distance": {
+      "value": 3.563
+    },
+    "rideId": 105
+  },
+  {
+    "startAddressStr": "CE-585",
+    "endAddressStr": "CE-594",
+    "startTimeMs": 1693026118000,
+    "endTimeMs": 1693027798000,
+    "duration": 1680000,
+    "distance": {
+      "value": 1.663
+    },
+    "rideId": 106
+  },
+  {
+    "startAddressStr": "CE-457",
+    "endAddressStr": "CE-129",
+    "startTimeMs": 1692630915000,
+    "endTimeMs": 1692631515000,
+    "duration": 600000,
+    "distance": {
+      "value": 1.265
+    },
+    "rideId": 107
+  },
+  {
+    "startAddressStr": "CE-279",
+    "endAddressStr": "CE-334",
+    "startTimeMs": 1692316609000,
+    "endTimeMs": 1692319129000,
+    "duration": 2520000,
+    "distance": {
+      "value": 0.791
+    },
+    "rideId": 108
+  },
+  {
+    "startAddressStr": "CE-594",
+    "endAddressStr": "CE-229",
+    "startTimeMs": 1691515518000,
+    "endTimeMs": 1691518098000,
+    "duration": 2580000,
+    "distance": {
+      "value": 3.33
+    },
+    "rideId": 109
+  },
+  {
+    "startAddressStr": "CE-696",
+    "endAddressStr": "CE-556",
+    "startTimeMs": 1691254228000,
+    "endTimeMs": 1691256568000,
+    "duration": 2340000,
+    "distance": {
+      "value": 0.204
+    },
+    "rideId": 110
+  },
+  {
+    "startAddressStr": "CE-229",
+    "endAddressStr": "CE-229",
+    "startTimeMs": 1690896478000,
+    "endTimeMs": 1690897018000,
+    "duration": 540000,
+    "distance": {
+      "value": 3.195
+    },
+    "rideId": 111
+  },
+  {
+    "startAddressStr": "CE-279",
+    "endAddressStr": "CE-669",
+    "startTimeMs": 1689570280000,
+    "endTimeMs": 1689571360000,
+    "duration": 1080000,
+    "distance": {
+      "value": 2.469
+    },
+    "rideId": 112
+  },
+  {
+    "startAddressStr": "CE-669",
+    "endAddressStr": "CE-696",
+    "startTimeMs": 1689538925000,
+    "endTimeMs": 1689540185000,
+    "duration": 1260000,
+    "distance": {
+      "value": 3.987
+    },
+    "rideId": 113
+  },
+  {
+    "startAddressStr": "CE-279",
+    "endAddressStr": "CE-594",
+    "startTimeMs": 1689130943000,
+    "endTimeMs": 1689133043000,
+    "duration": 2100000,
+    "distance": {
+      "value": 1.565
+    },
+    "rideId": 114
+  },
+  {
+    "startAddressStr": "CE-129",
+    "endAddressStr": "CE-229",
+    "startTimeMs": 1688900733000,
+    "endTimeMs": 1688901153000,
+    "duration": 420000,
+    "distance": {
+      "value": 0.721
+    },
+    "rideId": 115
+  },
+  {
+    "startAddressStr": "CE-556",
+    "endAddressStr": "CE-556",
+    "startTimeMs": 1688385544000,
+    "endTimeMs": 1688386084000,
+    "duration": 540000,
+    "distance": {
+      "value": 1.61
+    },
+    "rideId": 116
+  },
+  {
+    "startAddressStr": "CE-229",
+    "endAddressStr": "CE-457",
+    "startTimeMs": 1687794732000,
+    "endTimeMs": 1687795512000,
+    "duration": 780000,
+    "distance": {
+      "value": 1.178
+    },
+    "rideId": 117
+  },
+  {
+    "startAddressStr": "CE-594",
+    "endAddressStr": "CE-594",
+    "startTimeMs": 1687769986000,
+    "endTimeMs": 1687772686000,
+    "duration": 2700000,
+    "distance": {
+      "value": 1.33
+    },
+    "rideId": 118
+  },
+  {
+    "startAddressStr": "CE-669",
+    "endAddressStr": "CE-279",
+    "startTimeMs": 1686987756000,
+    "endTimeMs": 1686988776000,
+    "duration": 1020000,
+    "distance": {
+      "value": 1.858
+    },
+    "rideId": 119
+  },
+  {
+    "startAddressStr": "CE-129",
+    "endAddressStr": "CE-696",
+    "startTimeMs": 1686164358000,
+    "endTimeMs": 1686165618000,
+    "duration": 1260000,
+    "distance": {
+      "value": 4.312
+    },
+    "rideId": 120
+  },
+  {
+    "startAddressStr": "CE-229",
+    "endAddressStr": "CE-556",
+    "startTimeMs": 1686066912000,
+    "endTimeMs": 1686068772000,
+    "duration": 1860000,
+    "distance": {
+      "value": 4.968
+    },
+    "rideId": 121
+  },
+  {
+    "startAddressStr": "CE-229",
+    "endAddressStr": "CE-334",
+    "startTimeMs": 1684837343000,
+    "endTimeMs": 1684839443000,
+    "duration": 2100000,
+    "distance": {
+      "value": 3.484
+    },
+    "rideId": 122
+  },
+  {
+    "startAddressStr": "CE-129",
+    "endAddressStr": "CE-696",
+    "startTimeMs": 1684661921000,
+    "endTimeMs": 1684662821000,
+    "duration": 900000,
+    "distance": {
+      "value": 4.192
+    },
+    "rideId": 123
+  },
+  {
+    "startAddressStr": "CE-585",
+    "endAddressStr": "CE-556",
+    "startTimeMs": 1684144883000,
+    "endTimeMs": 1684146023000,
+    "duration": 1140000,
+    "distance": {
+      "value": 4.793
+    },
+    "rideId": 124
+  },
+  {
+    "startAddressStr": "CE-229",
+    "endAddressStr": "CE-229",
+    "startTimeMs": 1683768898000,
+    "endTimeMs": 1683769738000,
+    "duration": 840000,
+    "distance": {
+      "value": 4.243
+    },
+    "rideId": 125
+  },
+  {
+    "startAddressStr": "CE-556",
+    "endAddressStr": "CE-556",
+    "startTimeMs": 1682888591000,
+    "endTimeMs": 1682890691000,
+    "duration": 2100000,
+    "distance": {
+      "value": 3.402
+    },
+    "rideId": 126
+  },
+  {
+    "startAddressStr": "CE-229",
+    "endAddressStr": "CE-129",
+    "startTimeMs": 1681916674000,
+    "endTimeMs": 1681918114000,
+    "duration": 1440000,
+    "distance": {
+      "value": 3.903
+    },
+    "rideId": 127
+  },
+  {
+    "startAddressStr": "CE-669",
+    "endAddressStr": "CE-229",
+    "startTimeMs": 1681503852000,
+    "endTimeMs": 1681504272000,
+    "duration": 420000,
+    "distance": {
+      "value": 3.896
+    },
+    "rideId": 128
+  },
+  {
+    "startAddressStr": "CE-585",
+    "endAddressStr": "CE-696",
+    "startTimeMs": 1681473369000,
+    "endTimeMs": 1681474089000,
+    "duration": 720000,
+    "distance": {
+      "value": 2.361
+    },
+    "rideId": 129
+  },
+  {
+    "startAddressStr": "CE-129",
+    "endAddressStr": "CE-594",
+    "startTimeMs": 1681179981000,
+    "endTimeMs": 1681181121000,
+    "duration": 1140000,
+    "distance": {
+      "value": 1.25
+    },
+    "rideId": 130
+  },
+  {
+    "startAddressStr": "CE-279",
+    "endAddressStr": "CE-457",
+    "startTimeMs": 1681073115000,
+    "endTimeMs": 1681074555000,
+    "duration": 1440000,
+    "distance": {
+      "value": 0.55
+    },
+    "rideId": 131
+  },
+  {
+    "startAddressStr": "CE-129",
+    "endAddressStr": "CE-556",
+    "startTimeMs": 1680528527000,
+    "endTimeMs": 1680529427000,
+    "duration": 900000,
+    "distance": {
+      "value": 0.627
+    },
+    "rideId": 132
+  },
+  {
+    "startAddressStr": "CE-229",
+    "endAddressStr": "CE-129",
+    "startTimeMs": 1680401622000,
+    "endTimeMs": 1680402882000,
+    "duration": 1260000,
+    "distance": {
+      "value": 4.799
+    },
+    "rideId": 133
+  },
+  {
+    "startAddressStr": "CE-334",
+    "endAddressStr": "CE-585",
+    "startTimeMs": 1680278267000,
+    "endTimeMs": 1680279287000,
+    "duration": 1020000,
+    "distance": {
+      "value": 0.391
+    },
+    "rideId": 134
+  },
+  {
+    "startAddressStr": "CE-279",
+    "endAddressStr": "CE-129",
+    "startTimeMs": 1679269436000,
+    "endTimeMs": 1679270996000,
+    "duration": 1560000,
+    "distance": {
+      "value": 3.436
+    },
+    "rideId": 135
+  },
+  {
+    "startAddressStr": "CE-334",
+    "endAddressStr": "CE-129",
+    "startTimeMs": 1679063552000,
+    "endTimeMs": 1679064632000,
+    "duration": 1080000,
+    "distance": {
+      "value": 3.108
+    },
+    "rideId": 136
+  },
+  {
+    "startAddressStr": "CE-585",
+    "endAddressStr": "CE-594",
+    "startTimeMs": 1678780233000,
+    "endTimeMs": 1678780533000,
+    "duration": 300000,
+    "distance": {
+      "value": 0.3
+    },
+    "rideId": 137
+  },
+  {
+    "startAddressStr": "CE-669",
+    "endAddressStr": "CE-229",
+    "startTimeMs": 1678666545000,
+    "endTimeMs": 1678668045000,
+    "duration": 1500000,
+    "distance": {
+      "value": 3.635
+    },
+    "rideId": 138
+  },
+  {
+    "startAddressStr": "CE-334",
+    "endAddressStr": "CE-556",
+    "startTimeMs": 1678378349000,
+    "endTimeMs": 1678379069000,
+    "duration": 720000,
+    "distance": {
+      "value": 2.99
+    },
+    "rideId": 139
+  },
+  {
+    "startAddressStr": "CE-334",
+    "endAddressStr": "CE-585",
+    "startTimeMs": 1678181284000,
+    "endTimeMs": 1678182784000,
+    "duration": 1500000,
+    "distance": {
+      "value": 3.7
+    },
+    "rideId": 140
+  },
+  {
+    "startAddressStr": "CE-457",
+    "endAddressStr": "CE-129",
+    "startTimeMs": 1677811290000,
+    "endTimeMs": 1677811530000,
+    "duration": 240000,
+    "distance": {
+      "value": 3.777
+    },
+    "rideId": 141
+  },
+  {
+    "startAddressStr": "CE-457",
+    "endAddressStr": "CE-279",
+    "startTimeMs": 1676988867000,
+    "endTimeMs": 1676991447000,
+    "duration": 2580000,
+    "distance": {
+      "value": 0.926
+    },
+    "rideId": 142
+  },
+  {
+    "startAddressStr": "CE-696",
+    "endAddressStr": "CE-457",
+    "startTimeMs": 1676825240000,
+    "endTimeMs": 1676825420000,
+    "duration": 180000,
+    "distance": {
+      "value": 3.71
+    },
+    "rideId": 143
+  },
+  {
+    "startAddressStr": "CE-556",
+    "endAddressStr": "CE-696",
+    "startTimeMs": 1676665354000,
+    "endTimeMs": 1676666674000,
+    "duration": 1320000,
+    "distance": {
+      "value": 1.624
+    },
+    "rideId": 144
+  },
+  {
+    "startAddressStr": "CE-669",
+    "endAddressStr": "CE-334",
+    "startTimeMs": 1676528169000,
+    "endTimeMs": 1676530149000,
+    "duration": 1980000,
+    "distance": {
+      "value": 0.885
+    },
+    "rideId": 145
+  },
+  {
+    "startAddressStr": "CE-457",
+    "endAddressStr": "CE-279",
+    "startTimeMs": 1675730632000,
+    "endTimeMs": 1675732552000,
+    "duration": 1920000,
+    "distance": {
+      "value": 4.195
+    },
+    "rideId": 146
+  },
+  {
+    "startAddressStr": "CE-457",
+    "endAddressStr": "CE-279",
+    "startTimeMs": 1675599189000,
+    "endTimeMs": 1675600689000,
+    "duration": 1500000,
+    "distance": {
+      "value": 0.935
+    },
+    "rideId": 147
+  },
+  {
+    "startAddressStr": "CE-129",
+    "endAddressStr": "CE-594",
+    "startTimeMs": 1675512245000,
+    "endTimeMs": 1675512605000,
+    "duration": 360000,
+    "distance": {
+      "value": 0.351
+    },
+    "rideId": 148
+  },
+  {
+    "startAddressStr": "CE-457",
+    "endAddressStr": "CE-585",
+    "startTimeMs": 1675436177000,
+    "endTimeMs": 1675437077000,
+    "duration": 900000,
+    "distance": {
+      "value": 3.738
+    },
+    "rideId": 149
+  },
+  {
+    "startAddressStr": "CE-696",
+    "endAddressStr": "CE-669",
+    "startTimeMs": 1674674825000,
+    "endTimeMs": 1674675305000,
+    "duration": 480000,
+    "distance": {
+      "value": 2.071
+    },
+    "rideId": 150
+  },
+  {
+    "startAddressStr": "CE-594",
+    "endAddressStr": "CE-696",
+    "startTimeMs": 1674469059000,
+    "endTimeMs": 1674471159000,
+    "duration": 2100000,
+    "distance": {
+      "value": 4.135
+    },
+    "rideId": 151
+  },
+  {
+    "startAddressStr": "CE-457",
+    "endAddressStr": "CE-229",
+    "startTimeMs": 1674289875000,
+    "endTimeMs": 1674292095000,
+    "duration": 2220000,
+    "distance": {
+      "value": 1.04
+    },
+    "rideId": 152
+  },
+  {
+    "startAddressStr": "CE-696",
+    "endAddressStr": "CE-585",
+    "startTimeMs": 1673984706000,
+    "endTimeMs": 1673985486000,
+    "duration": 780000,
+    "distance": {
+      "value": 2.702
+    },
+    "rideId": 153
+  },
+  {
+    "startAddressStr": "CE-279",
+    "endAddressStr": "CE-594",
+    "startTimeMs": 1673902910000,
+    "endTimeMs": 1673904890000,
+    "duration": 1980000,
+    "distance": {
+      "value": 3.941
+    },
+    "rideId": 154
+  },
+  {
+    "startAddressStr": "CE-585",
+    "endAddressStr": "CE-696",
+    "startTimeMs": 1673360113000,
+    "endTimeMs": 1673362273000,
+    "duration": 2160000,
+    "distance": {
+      "value": 4.42
+    },
+    "rideId": 155
+  },
+  {
+    "startAddressStr": "CE-129",
+    "endAddressStr": "CE-696",
+    "startTimeMs": 1673313447000,
+    "endTimeMs": 1673314047000,
+    "duration": 600000,
+    "distance": {
+      "value": 3.135
+    },
+    "rideId": 156
+  },
+  {
+    "startAddressStr": "CE-229",
+    "endAddressStr": "CE-594",
+    "startTimeMs": 1673189870000,
+    "endTimeMs": 1673192270000,
+    "duration": 2400000,
+    "distance": {
+      "value": 0.279
+    },
+    "rideId": 157
+  },
+  {
+    "startAddressStr": "CE-229",
+    "endAddressStr": "CE-556",
+    "startTimeMs": 1673048931000,
+    "endTimeMs": 1673049531000,
+    "duration": 600000,
+    "distance": {
+      "value": 4.508
+    },
+    "rideId": 158
+  },
+  {
+    "startAddressStr": "CE-696",
+    "endAddressStr": "CE-457",
+    "startTimeMs": 1672888962000,
+    "endTimeMs": 1672891302000,
+    "duration": 2340000,
+    "distance": {
+      "value": 3.95
+    },
+    "rideId": 159
+  },
+  {
+    "startAddressStr": "CE-129",
+    "endAddressStr": "CE-585",
+    "startTimeMs": 1672842718000,
+    "endTimeMs": 1672844698000,
+    "duration": 1980000,
+    "distance": {
+      "value": 4.023
+    },
+    "rideId": 160
+  },
+  {
+    "startAddressStr": "CE-585",
+    "endAddressStr": "CE-585",
+    "startTimeMs": 1672447415000,
+    "endTimeMs": 1672449095000,
+    "duration": 1680000,
+    "distance": {
+      "value": 1.642
+    },
+    "rideId": 161
+  },
+  {
+    "startAddressStr": "CE-229",
+    "endAddressStr": "CE-334",
+    "startTimeMs": 1672292099000,
+    "endTimeMs": 1672292399000,
+    "duration": 300000,
+    "distance": {
+      "value": 3.646
+    },
+    "rideId": 162
+  },
+  {
+    "startAddressStr": "CE-669",
+    "endAddressStr": "CE-279",
+    "startTimeMs": 1672176897000,
+    "endTimeMs": 1672178997000,
+    "duration": 2100000,
+    "distance": {
+      "value": 3.073
+    },
+    "rideId": 163
+  },
+  {
+    "startAddressStr": "CE-594",
+    "endAddressStr": "CE-585",
+    "startTimeMs": 1672054898000,
+    "endTimeMs": 1672057118000,
+    "duration": 2220000,
+    "distance": {
+      "value": 1.401
+    },
+    "rideId": 164
+  },
+  {
+    "startAddressStr": "CE-669",
+    "endAddressStr": "CE-594",
+    "startTimeMs": 1671336999000,
+    "endTimeMs": 1671337179000,
+    "duration": 180000,
+    "distance": {
+      "value": 3.792
+    },
+    "rideId": 165
+  },
+  {
+    "startAddressStr": "CE-556",
+    "endAddressStr": "CE-594",
+    "startTimeMs": 1671281167000,
+    "endTimeMs": 1671281587000,
+    "duration": 420000,
+    "distance": {
+      "value": 0.852
+    },
+    "rideId": 166
+  },
+  {
+    "startAddressStr": "CE-556",
+    "endAddressStr": "CE-457",
+    "startTimeMs": 1670949587000,
+    "endTimeMs": 1670950847000,
+    "duration": 1260000,
+    "distance": {
+      "value": 3.639
+    },
+    "rideId": 167
+  },
+  {
+    "startAddressStr": "CE-594",
+    "endAddressStr": "CE-696",
+    "startTimeMs": 1670311465000,
+    "endTimeMs": 1670314165000,
+    "duration": 2700000,
+    "distance": {
+      "value": 3.116
+    },
+    "rideId": 168
+  },
+  {
+    "startAddressStr": "CE-279",
+    "endAddressStr": "CE-585",
+    "startTimeMs": 1670203780000,
+    "endTimeMs": 1670205760000,
+    "duration": 1980000,
+    "distance": {
+      "value": 1.505
+    },
+    "rideId": 169
+  },
+  {
+    "startAddressStr": "CE-229",
+    "endAddressStr": "CE-129",
+    "startTimeMs": 1670157959000,
+    "endTimeMs": 1670158259000,
+    "duration": 300000,
+    "distance": {
+      "value": 2.653
+    },
+    "rideId": 170
+  },
+  {
+    "startAddressStr": "CE-279",
+    "endAddressStr": "CE-594",
+    "startTimeMs": 1669725238000,
+    "endTimeMs": 1669726918000,
+    "duration": 1680000,
+    "distance": {
+      "value": 1.182
+    },
+    "rideId": 171
+  },
+  {
+    "startAddressStr": "CE-279",
+    "endAddressStr": "CE-229",
+    "startTimeMs": 1669304920000,
+    "endTimeMs": 1669307080000,
+    "duration": 2160000,
+    "distance": {
+      "value": 2.608
+    },
+    "rideId": 172
+  },
+  {
+    "startAddressStr": "CE-129",
+    "endAddressStr": "CE-585",
+    "startTimeMs": 1669297585000,
+    "endTimeMs": 1669299205000,
+    "duration": 1620000,
+    "distance": {
+      "value": 0.391
+    },
+    "rideId": 173
+  },
+  {
+    "startAddressStr": "CE-279",
+    "endAddressStr": "CE-279",
+    "startTimeMs": 1668919858000,
+    "endTimeMs": 1668921598000,
+    "duration": 1740000,
+    "distance": {
+      "value": 4.322
+    },
+    "rideId": 174
+  },
+  {
+    "startAddressStr": "CE-129",
+    "endAddressStr": "CE-129",
+    "startTimeMs": 1668297115000,
+    "endTimeMs": 1668298855000,
+    "duration": 1740000,
+    "distance": {
+      "value": 0.821
+    },
+    "rideId": 175
+  },
+  {
+    "startAddressStr": "CE-585",
+    "endAddressStr": "CE-669",
+    "startTimeMs": 1668258004000,
+    "endTimeMs": 1668259804000,
+    "duration": 1800000,
+    "distance": {
+      "value": 2.54
+    },
+    "rideId": 176
+  },
+  {
+    "startAddressStr": "CE-556",
+    "endAddressStr": "CE-334",
+    "startTimeMs": 1668243114000,
+    "endTimeMs": 1668244194000,
+    "duration": 1080000,
+    "distance": {
+      "value": 4.111
+    },
+    "rideId": 177
+  },
+  {
+    "startAddressStr": "CE-229",
+    "endAddressStr": "CE-585",
+    "startTimeMs": 1668240241000,
+    "endTimeMs": 1668241321000,
+    "duration": 1080000,
+    "distance": {
+      "value": 1.71
+    },
+    "rideId": 178
+  },
+  {
+    "startAddressStr": "CE-556",
+    "endAddressStr": "CE-556",
+    "startTimeMs": 1668167303000,
+    "endTimeMs": 1668167963000,
+    "duration": 660000,
+    "distance": {
+      "value": 4.136
+    },
+    "rideId": 179
+  },
+  {
+    "startAddressStr": "CE-556",
+    "endAddressStr": "CE-594",
+    "startTimeMs": 1667578970000,
+    "endTimeMs": 1667579390000,
+    "duration": 420000,
+    "distance": {
+      "value": 0.611
+    },
+    "rideId": 180
+  },
+  {
+    "startAddressStr": "CE-594",
+    "endAddressStr": "CE-457",
+    "startTimeMs": 1667547564000,
+    "endTimeMs": 1667549424000,
+    "duration": 1860000,
+    "distance": {
+      "value": 1.341
+    },
+    "rideId": 181
+  },
+  {
+    "startAddressStr": "CE-696",
+    "endAddressStr": "CE-669",
+    "startTimeMs": 1666114673000,
+    "endTimeMs": 1666116473000,
+    "duration": 1800000,
+    "distance": {
+      "value": 0.333
+    },
+    "rideId": 182
+  },
+  {
+    "startAddressStr": "CE-129",
+    "endAddressStr": "CE-229",
+    "startTimeMs": 1665853827000,
+    "endTimeMs": 1665856227000,
+    "duration": 2400000,
+    "distance": {
+      "value": 1.262
+    },
+    "rideId": 183
+  },
+  {
+    "startAddressStr": "CE-669",
+    "endAddressStr": "CE-457",
+    "startTimeMs": 1665318366000,
+    "endTimeMs": 1665319386000,
+    "duration": 1020000,
+    "distance": {
+      "value": 3.412
+    },
+    "rideId": 184
+  },
+  {
+    "startAddressStr": "CE-279",
+    "endAddressStr": "CE-669",
+    "startTimeMs": 1665256573000,
+    "endTimeMs": 1665257113000,
+    "duration": 540000,
+    "distance": {
+      "value": 4.247
+    },
+    "rideId": 185
+  },
+  {
+    "startAddressStr": "CE-594",
+    "endAddressStr": "CE-279",
+    "startTimeMs": 1665138016000,
+    "endTimeMs": 1665138556000,
+    "duration": 540000,
+    "distance": {
+      "value": 4.815
+    },
+    "rideId": 186
+  },
+  {
+    "startAddressStr": "CE-594",
+    "endAddressStr": "CE-279",
+    "startTimeMs": 1664648831000,
+    "endTimeMs": 1664651291000,
+    "duration": 2460000,
+    "distance": {
+      "value": 3.343
+    },
+    "rideId": 187
+  },
+  {
+    "startAddressStr": "CE-585",
+    "endAddressStr": "CE-556",
+    "startTimeMs": 1664310001000,
+    "endTimeMs": 1664312341000,
+    "duration": 2340000,
+    "distance": {
+      "value": 3.224
+    },
+    "rideId": 188
+  },
+  {
+    "startAddressStr": "CE-585",
+    "endAddressStr": "CE-229",
+    "startTimeMs": 1664193145000,
+    "endTimeMs": 1664193865000,
+    "duration": 720000,
+    "distance": {
+      "value": 2.267
+    },
+    "rideId": 189
+  },
+  {
+    "startAddressStr": "CE-334",
+    "endAddressStr": "CE-129",
+    "startTimeMs": 1664179519000,
+    "endTimeMs": 1664181139000,
+    "duration": 1620000,
+    "distance": {
+      "value": 4.564
+    },
+    "rideId": 190
+  },
+  {
+    "startAddressStr": "CE-279",
+    "endAddressStr": "CE-585",
+    "startTimeMs": 1664161982000,
+    "endTimeMs": 1664164442000,
+    "duration": 2460000,
+    "distance": {
+      "value": 0.178
+    },
+    "rideId": 191
+  },
+  {
+    "startAddressStr": "CE-129",
+    "endAddressStr": "CE-279",
+    "startTimeMs": 1663428285000,
+    "endTimeMs": 1663430865000,
+    "duration": 2580000,
+    "distance": {
+      "value": 1.081
+    },
+    "rideId": 192
+  },
+  {
+    "startAddressStr": "CE-696",
+    "endAddressStr": "CE-556",
+    "startTimeMs": 1663149489000,
+    "endTimeMs": 1663149909000,
+    "duration": 420000,
+    "distance": {
+      "value": 2.051
+    },
+    "rideId": 193
+  },
+  {
+    "startAddressStr": "CE-556",
+    "endAddressStr": "CE-279",
+    "startTimeMs": 1663082376000,
+    "endTimeMs": 1663084836000,
+    "duration": 2460000,
+    "distance": {
+      "value": 3.92
+    },
+    "rideId": 194
+  },
+  {
+    "startAddressStr": "CE-669",
+    "endAddressStr": "CE-669",
+    "startTimeMs": 1662935669000,
+    "endTimeMs": 1662936569000,
+    "duration": 900000,
+    "distance": {
+      "value": 0.798
+    },
+    "rideId": 195
+  },
+  {
+    "startAddressStr": "CE-457",
+    "endAddressStr": "CE-334",
+    "startTimeMs": 1662677806000,
+    "endTimeMs": 1662678886000,
+    "duration": 1080000,
+    "distance": {
+      "value": 2.586
+    },
+    "rideId": 196
+  },
+  {
+    "startAddressStr": "CE-585",
+    "endAddressStr": "CE-696",
+    "startTimeMs": 1662139053000,
+    "endTimeMs": 1662140253000,
+    "duration": 1200000,
+    "distance": {
+      "value": 0.561
+    },
+    "rideId": 197
+  },
+  {
+    "startAddressStr": "CE-229",
+    "endAddressStr": "CE-457",
+    "startTimeMs": 1661209169000,
+    "endTimeMs": 1661210729000,
+    "duration": 1560000,
+    "distance": {
+      "value": 4.45
+    },
+    "rideId": 198
+  },
+  {
+    "startAddressStr": "CE-457",
+    "endAddressStr": "CE-229",
+    "startTimeMs": 1660593121000,
+    "endTimeMs": 1660595341000,
+    "duration": 2220000,
+    "distance": {
+      "value": 0.368
+    },
+    "rideId": 199
+  },
+  {
+    "startAddressStr": "CE-585",
+    "endAddressStr": "CE-334",
+    "startTimeMs": 1659453512000,
+    "endTimeMs": 1659456032000,
+    "duration": 2520000,
+    "distance": {
+      "value": 3.672
+    },
+    "rideId": 200
+  }
+]

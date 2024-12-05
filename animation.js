@@ -164,7 +164,6 @@ function startAnimation(ecobici) {
           .style('pointer-events', 'none');
 
       animate = function animate() {
-        console.log('currentFrame:', currentFrame);
         showButtons();
         if (currentFrame >= ecobici.length) {
           isPlaying = false;

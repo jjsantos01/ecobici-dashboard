@@ -24,18 +24,19 @@
         <h1>Tus viajes en <span style="color: #009a43dd;">Ecobici</span> - CDMX</h1>
         <p id="description">
           Vizualizaciones del sistema Ecobici.<br>
-          Por el momento es un sitio de prueba con datos sintéticos. En el futuro intentaremos que puedas visualizar tus propios datos.
         </p>
-        <!-- <form id="searchForm">
-          <div class="input-group">
-            <input type="text" id="userId" placeholder="Ingresa tu token" required>
-            <button type="submit">Buscar</button>
-            <i class="fas fa-info-circle info-icon" id="yearInfo"></i>
+        <div id="dropZoneContainer">
+          <div id="dropZone">
+            Arrastra y suelta tu archivo JSON aquí<br>o haz clic para seleccionar
+            <input type="file" id="fileInput" accept=".json,.JSON">
           </div>
-          <div class="input-group">
-            <input type="number" id="nRides" placeholder="Número de viajes" value="1000" step=10 hidden>
-          </div>
-        </form> -->
+        </div>
+        <div class="centered-container">
+          <h6>¿No tienes datos de Ecobici?</h6>
+        </div>
+        <div id="testData" class="centered-container">
+          <button id="loadTestData" class="btn btn-primary">Cargar datos de prueba</button>
+        </div>
         <div id="infoPopup" class="popup">
           Los datos provienen de la página de <a href="https://ecobici.cdmx.gob.mx/" target="_blank">Ecobici</a>, si esa página está caída, esta página no funcionará.
         </div>

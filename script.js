@@ -28,36 +28,66 @@ const colorPalette = {
   // Añade más organismos y colores según sea necesario
 };
 
+const dropZone = document.getElementById('dropZone');
+const fileInput = document.getElementById('fileInput');
+const loadTestData = document.getElementById('loadTestData');
+dropZone.addEventListener('drop', handleDrop);
+
+dropZone.addEventListener('dragover', (e) => {
+  e.preventDefault();
+  e.stopPropagation();
+  dropZone.classList.add('dragover');
+});
+
+dropZone.addEventListener('dragleave', () => {
+  dropZone.classList.remove('dragover');
+});
+
+dropZone.addEventListener('dragend', () => {
+  dropZone.classList.remove('dragover');
+});
+
+// manejar clic en el dropZone
+dropZone.addEventListener('click', () => {
+  fileInput.click();
+});
+
+// manejar selección de archivo
+fileInput.addEventListener('change', (e) => {
+  if (e.target.files.length) {
+    handleJsonFile(e.target.files[0]);
+  }
+});
+
+// manejar archivo soltado
+function handleDrop(e) {
+  e.preventDefault();
+  e.stopPropagation();
+
+  const files = e.dataTransfer.files;
+  if (files.length) {
+      handleJsonFile(files[0]);
+  }
+}
+
+// manejar archivo JSON
+function handleJsonFile(file) {
+  const reader = new FileReader();
+  reader.onload = async (e) => {
+      const data = JSON.parse(e.target.result);
+      updateSectionContents(data);
+  };
+  reader.readAsText(file);
+}
+
+loadTestData.addEventListener('click', async () => {
+  data = await fetchTestData();
+  updateSectionContents(data);
+}
+);
+
 document.addEventListener('DOMContentLoaded', async () => {
-  // const form = document.getElementById('searchForm');
   window.mapInstances = {};
-
-  // form.addEventListener('submit', async (e) => {
-  //     e.preventDefault();
-  //     ecobici = [];
-  //     processSubmit();
-  // });
-
-  // const infoIcon = document.getElementById('yearInfo');
-  // const popup = document.getElementById('infoPopup');
-
-  // infoIcon.addEventListener('click', function(e) {
-  //     e.preventDefault();
-  //     popup.style.display = popup.style.display === 'block' ? 'none' : 'block';
-  //     popup.style.top = (e.clientY + 10) + 'px';
-  //     popup.style.left = (e.clientX + 10) + 'px';
-  // });
-
-  // document.addEventListener('click', function(e) {
-  //     if (e.target !== infoIcon && !popup.contains(e.target)) {
-  //         popup.style.display = 'none';
-  //     }
-  // });
-
-  if (!prod) {
-    data = await fetchTestData();
-    updateSectionContents(data);
-    }
   });
 
 document.getElementById('downloadCSV').addEventListener('click', function() {
